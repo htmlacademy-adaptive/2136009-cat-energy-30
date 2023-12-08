@@ -2,16 +2,21 @@
 <html class="page" lang="ru">
   <head>
     <meta charset="UTF-8">
-    <title>Кэт энерджи</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="icon" sizes="32x32" href="favicon.ico">
+    <link rel="icon" type="image/svg+xml" sizes="152x152" href="img/favicons/favicon.svg">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-icon-180x180.png">
+    <link rel="manifest" href="manifest.webmanifest">
     <link rel="stylesheet" href="styles/styles.css">
     <script src="scripts/index.js" defer></script>
+    <title>Кэт энерджи</title>
   </head>
   <body class="page__body">
     <header class="main-header">
       <a class="main-header__logo">
-        <img class="main-header__logo-image" src="#" width="174" height="50"
-                     alt="Питание для котов Кэт энерджи">
+        <picture>
+        <img src="images/logo-mobile@1x.png 1x" width="33" height="38"
+                     alt="Питание для котов Кэт энерджи"></picture>
       </a>
       <nav class="main-nav">
         <button class="main-nav__toggle" type="button"><span class="visually-hidden">Открыть меню</span></button>
@@ -36,17 +41,21 @@
     </header>
     <main class="main-container">
       <h1 class="visually-hidden">
-        Интернет магазин "Энергичный кот", функциональное питания для здорого
-        кота
-      </h1>
+        Интернет магазин "Энергичный кот", функциональное питания для здорого кота</h1>
       <section class="hero">
         <div class="hero__container">
           <div class="hero__wrapper">
             <h2 class="hero__title">Функциональное питание для котов</h2>
             <h3 class="hero__slogan">Занялся собой? Займись котом!</h3>
           </div>
-          <a class="hero__button button" href="form.html">
-            подобрать программу</a>
+          <picture>
+            <source width="720" height="694" type="image/jpeg" media="(min-width: 1440px)" srcset="images/cat-background-desk@1x.jpg 1x, images/cat-background-desk@2x.jpg 2x">
+            <img src="images/cat-background@1x.jpg 1x" srcset="images/cat-background@2x.jpg 2x" width="320" height="302" alt="фоновое изображение Довольный кот "></picture>
+            <picture>
+              <source width="552" height="499" type="image/png" media="(min-width: 1440px)" srcset="images/hero-food-desktop@1x.png 1x, images/hero-food-desktop@2x.png 2x">
+              <source width="709" height="609" type="image/png" media="(min-width: 768px)" srcset="images/hero-tablet@1x.png 1x, mages/hero-tablet@2x.png 2x">
+              <img src="images/hero-food@1x.png 1x" srcset="images/hero-food@2x.png 2x" width="280" height="270" alt="Изображение с упаковкой"></picture>
+            <a class="hero__button button" href="form.html">подобрать программу</a>
         </div>
       </section>
       <section class="program">
@@ -55,18 +64,13 @@
           <ul class="program__list">
             <li class="program__item program__item--slim">
               <h3 class="program__title program__title--slim">похудение</h3>
-              <div class="program__content">
-                Ваш кот весит больше собаки и почти утратил способность лазить
-                по деревьям? Пора на диету! Cat Energy Slim поможет вашему
-                питомцу сбросить лишний вес.
+              <div class="program__content">Ваш кот весит больше собаки и почти утратил способность лазить по деревьям? Пора на диету! Cat Energy Slim поможет вашему питомцу сбросить лишний вес.
               </div>
               <a class="program__link catalog-link"> каталог slim </a>
             </li>
             <li class="program__item program__item--pro">
               <h3 class="program__title program__title--pro">Набор массы</h3>
-              <div class="program__content">
-                Заработать авторитет среди дворовых котов и даже собак? Серия
-                Cat Energy Pro поможет вашему коту нарастить необходимые мышцы!
+              <div class="program__content">Заработать авторитет среди дворовых котов и даже собак? Серия Cat Energy Pro поможет вашему коту нарастить необходимые мышцы!
               </div>
               <a class="pogram-link catalog-link catalog-link--pro">
                 каталог pro
@@ -79,17 +83,13 @@
         <h2 class="visually-hidden">Подробно о питании</h2>
         <h3 class="legend__title">Как это работает</h3>
         <ul class="legend__list">
-          <li class="legend__item legend__item--icon_leaf">
-            Функциональное питание содержит только полезные питательные вещества.
+          <li class="legend__item legend__item--icon_leaf">Функциональное питание содержит только полезные питательные вещества.
           </li>
-          <li class="legend__item legend__item--icon_water">
-            Выпускается в виде порошка, который нужно лишь залить кипятком и готово.
+          <li class="legend__item legend__item--icon_water">Выпускается в виде порошка, который нужно лишь залить кипятком и готово.
           </li>
-          <li class="legend__item legend__item--icon_food">
-            Замените один-два приема обычной еды на наше функциональное питание.
+          <li class="legend__item legend__item--icon_food">Замените один-два приема обычной еды на наше функциональное питание.
           </li>
-          <li class="legend__item legend__item--icon_time">
-            Уже через месяц наслаждайтесь изменениями к лучшему вашего питомца!
+          <li class="legend__item legend__item--icon_time">Уже через месяц наслаждайтесь изменениями к лучшему вашего питомца!
           </li>
         </ul>
       </section>
@@ -101,11 +101,7 @@
         <div class="example__wrapper">
           <div class="example__desktop-wrapper">
 
-            <p class="example__text">
-              Борис сбросил 5 кг за 2 месяца, просто заменив свой обычный корм
-              на Cat Energy Slim. Отличный результат без изнуряющих тренировок!
-              При этом он не менял своих привычек и по-прежнему спит по 16 часов
-              в день.
+            <p class="example__text">Борис сбросил 5 кг за 2 месяца, просто заменив свой обычный корм на Cat Energy Slim. Отличный результат без изнуряющих тренировок! При этом он не менял своих привычек и по-прежнему спит по 16 часов в день.
             </p>
             <div class="example__stats">
               <div class="example__stats-list">
@@ -127,7 +123,17 @@
           <div class="example__slider-wrapper slider">
             <ul class="slider__block">
               <li class="slider__item slider__item--before"></li>
+              <picture>
+                <source width="560" height="512" type="image/png" media="(min-width: 1440px)" srcset="images/before-t@1x.png 1x, images/before-t@2x.png 2x" >
+                <source width="560" height="512" type="image/png" media="(min-width: 768px)" srcset="images/before-t@1x.png 1x, images/before-t@2x.png 2x">
+                <img src="images/before-m@1x.png 1x" srcset="images/before-m@2x.png 2x" width="280" height="256" alt="Картинка котика до использования корма">
+              </picture>
               <li class="slider__item slider__item--after"></li>
+              <picture>
+                <source width="560" height="512" type="image/png" media="(min-width: 1440px)" srcset="images/after-t@1x.png 1x, images/after-t@2x.png 2x" >
+                <source width="560" height="512" type="image/png" media="(min-width: 768px)" srcset="images/after-t@1x.png 1x, images/after-t@2x.png 2x">
+                <img src="images/after-m@1x.png 1x" srcset="images/after-m@2x.png 2x" width="280" height="256" alt="Картинка котика после использования корма">
+              </picture>
             </ul>
             <button class="slider__button" type="button">
               <span class="visually-hidden">Кнопка смещения слайдера влево или вправо</span>
@@ -148,6 +154,11 @@
         </div>
       </section>
       <div class="footer__map-block">
+        <picture>
+          <source width="1440" height="400" type="image/png" media="(min-width: 1440px)" srcset="images/map-desktop@1x.png 1x, images/map-desktop@2x.png 2x">
+          <source width="768" height="400" type="image/png" media="(min-width: 768px)" srcset="images/map-tablet@1x.png 1x, images/map-tablet@2x.png 2x">
+          <img src="images/map-mobile@1x.png 1x" srcset="images/map-mobile@2x.png 2x" width="320" height="362" alt="Карта как нас найти.">
+        </picture>
         <iframe class="footer__map-yandex"
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.6036257197886!2d30.320472476878738!3d59.93871916209405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca145cc1%3A0x42b32648d8238007!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LzgsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCAxOTExODY!5e0!3m2!1sru!2sru!4v1690818285662!5m2!1sru!2sru"
           width="320" height="362">
