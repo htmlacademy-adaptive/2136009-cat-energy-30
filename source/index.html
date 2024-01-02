@@ -16,9 +16,13 @@
     <header class="header">
       <div class="header-wrapper">
         <div class=" header__logo-wrapper">
-      <a class="header__logo">
-        <!--<img> -->
-      </a>
+      <a class="header__logo logo-mobile">
+        <picture>
+          <source type="image/svg+xml" media="(min-width: 1440px)" srcset="images/icons/logo-desktop.svg" width="70" height="59">
+          <source type="image/svg+xml" media="(min-width: 768px)" srcset="images/icons/logo-tablet.svg" width="60" height="50">
+          <img  class="logo__image" src="images/icons/logo-m.svg" width="33" height="38" alt="Логотип Cat Energy">
+        </picture>
+        <img class="logo__text" src="images/icons/logolable-m.svg" width="101" height="18" alt="Текст логотипа Cat Energy">
         </div>
       <nav class="header__menu menu">
         <button class="menu__toggle" type="button"><span class="visually-hidden">Открыть меню</span></button>
@@ -36,7 +40,7 @@
       </nav>
     </header>
     <main>
-      <h1 class="visually-hidden">Интернет магазин "Энергичный кот", функциональное питания для здорого кота</h1>
+      <h1 class="visually-hidden">Интернет магазин "Энергичный кот", функциональное питания для здорового кота</h1>
       <section class="promo">
         <div class="promo-wrapper">
           <div class="promo__background-wrapper">
@@ -169,8 +173,8 @@
     <footer class="footer">
       <div class="footer-wrapper container">
         <div class="footer__logo">
-          <a class="footer__link logo-main" href="#">
-            <img class="logo-main__img" width="128" height="24" alt="Логотип «Кэт Энерджи»." src="#">
+          <a class="footer__link logo-main" href="index.html">
+            <img class="logo-main__img" width="128" height="24" alt="Логотип «Кэт Энерджи»." src="images/icons/logolable-m.svg">
           </a>
         </div>
         <div class="footer__socials socials">
