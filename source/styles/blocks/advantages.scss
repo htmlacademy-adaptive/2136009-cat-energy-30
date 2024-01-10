@@ -46,38 +46,31 @@
   width: 60px;
   height: 60px;
 }
-.advantages__icon::before {
-  position: absolute;
-  left: 0;
-  content: " ";
-  width: 60px;
-  height: 60px;
-}
 
 .advantages__icon-4::before {
   background-color: $color-basic-green;
-  background-image: url("../../images/icon-clock.svg");
+  background-image: url("../../images/icons/stack.svg#icon-clock");
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .advantages__icon-3::before {
   background-color: $color-basic-green;
-  background-image: url("../../images/icon-eat.svg");
+  background-image: url("../../images/icons/stack.svg#icon-eat");
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .advantages__icon-2::before {
   background-color: $color-basic-green;
-  background-image: url("../../images/icon-water.svg");
+  background-image: url("../../images/icons/stack.svg#icon-water");
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .advantages__icon-1::before {
   background-color: $color-basic-green;
-  background-image: url("../../images/icon-leaf.svg");
+  background-image: url("../../images/icons/stack.svg#icon-leaf");
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -118,7 +111,7 @@
     counter-increment: advantages;
     content: counter(advantages);
     color: $color-grey;
-    font-family: "Oswald", "Arial", sans-serif;
+    font-family: "Oswald", sans-serif;
     font-weight: 400;
     font-size: 280px;
     line-height: 100%;
