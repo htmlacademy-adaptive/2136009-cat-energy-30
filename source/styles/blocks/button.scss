@@ -13,3 +13,39 @@
   background-color: $color-basic-green;
   cursor: pointer;
 }
+
+.button--secondary {
+  background-color: $color-basic-grey;
+  color: $color-dark-grey;
+  padding: 10px 74px;
+}
+
+@media (min-width: $tablet-width) {
+  .button:hover {
+    background-color: $color-green-hover;
+  }
+
+  .button:focus {
+    color: transparentize($color-white, 0.3);
+  }
+
+  .button--secondary:hover {
+    background-color: $color-border-catalog;
+  }
+
+  .button--secondary:focus {
+    color: $color-black;
+    opacity: 0.3;
+  }
+
+  .button--card {
+    padding: 10px 93px;
+    margin: 0 2px;
+  }
+
+  @media (min-width: $desktop-width) {
+    .button--card {
+      padding: 10px 53px;
+    }
+  }
+}
