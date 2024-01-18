@@ -25,6 +25,7 @@
   display: block;
   margin-bottom: 20px;
 }
+
 .advantages__text {
   position: relative;
   min-height: 60px;
@@ -32,7 +33,7 @@
   align-items: center;
   margin: 0;
   padding: 0 5px 0 80px;
-  font-family: "Lato", sans-serif;
+  font-family: "Oswald", sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 129%;
@@ -47,9 +48,10 @@
   height: 60px;
 }
 
+
 .advantages__icon-4::before {
   background-color: $color-basic-green;
-  background-image: url("../../images/icons/stack.svg#icon-clock");
+  background-image: url("../../images/icons/icon-clock.svg");
   background-repeat: no-repeat;
   background-position: center;
 }
