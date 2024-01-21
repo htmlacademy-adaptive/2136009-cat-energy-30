@@ -1,38 +1,51 @@
 /* GLOBAL */
-@import "./global/variables.scss";
-@import "./global/common.scss";
 @import "./global/fonts.scss";
+@import "./global/variables.scss";
 @import "./global/global.scss";
+@import "./global/container.scss";
 @import "./global/visually-hidden.scss";
 
 
 /* BLOCKS */
-@import "./blocks/page.scss";
+// index
 @import "./blocks/header.scss";
-@import "./blocks/button.scss";
+@import "./blocks/logo.scss";
 @import "./blocks/menu.scss";
 @import "./blocks/promo.scss";
 @import "./blocks/programs.scss";
 @import "./blocks/advantages.scss";
 @import "./blocks/example.scss";
+@import "./blocks/img-slider.scss";
+@import "./blocks/range.scss";
 @import "./blocks/address.scss";
+@import "./blocks/address-wrapper.scss";
 @import "./blocks/footer.scss";
-@import "./blocks/logo.scss";
 @import "./blocks/socials.scss";
 @import "./blocks/logo-academy.scss";
+
+// catalog
 @import "./blocks/catalog.scss";
 @import "./blocks/card.scss";
-@import "./blocks/nowrap.scss";
 @import "./blocks/list-description.scss";
+@import "./blocks/button.scss";
 @import "./blocks/pagination.scss";
 @import "./blocks/catalog-add.scss";
 @import "./blocks/card-add.scss";
 @import "./blocks/catalog-promo.scss";
-@import "./blocks/address-wrapper.scss";
+
+// form
 @import "./blocks/form.scss";
 @import "./blocks/filter.scss";
 @import "./blocks/control.scss";
 @import "./blocks/checkbox.scss";
+
+
+
+
+
+
+
+
 
 
 
