@@ -55,9 +55,11 @@
             <p class="promo__text">Занялся собой? Займись котом!</p>
           </div>
             <picture>
+              <source type="image/webp" media="(min-width: 768px)" srcset="images/can-tablet@1x.webp, images/can-tablet@2x.webp">
+            <source type="image/webp" srcset="images/can-mobile@1x.webp, images/can-mobile@2x.webp">
               <source width="552" height="499" type="image/png" media="(min-width: 1440px)" srcset="images/can-desktop@1x.png, images/can-desktop@2x.png">
-              <source width="709" height="609" type="image/png" media="(min-width: 768px)" srcset="images/can-tablet@1x.png, images/can-tablet@2x.pngx.png">
-              <img src="images/can-mobile@1x.png" srcset="images/can-mobile@2x.png" width="280" height="270" alt="Изображение с упаковкой.">
+              <source width="709" height="609" type="image/png" media="(min-width: 768px)" srcset="images/can-tablet@1x.png, images/can-tablet@2x.png">
+              <img class="promo__img" width="280" height="270" alt="Изображение с упаковкой." src="images/can-mobile@1x.png" srcset="images/can-mobile@2x.png">
             </picture>
             <div class="promo__button-wrapper">
               <a class="promo__link-button" href="form.html">Подобрать программу</a>
