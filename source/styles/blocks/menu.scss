@@ -1,3 +1,4 @@
+
 .menu {
   margin: 0;
   font-family: "Oswald", sans-serif;
@@ -159,7 +160,7 @@
 
   .menu__content-list {
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     flex-wrap: wrap;
     padding: 0;
     min-width: 440px;
@@ -204,7 +205,7 @@
 @media (min-width: $desktop-width) {
   .menu {
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     background-color: transparent;
   }
 
@@ -248,12 +249,12 @@
   }
 
   .page-catalog .menu__content-link--current:hover,
-  .page-catalog.menu__content-link--current:focus {
+  .page-catalog .menu__content-link--current:focus {
     color: $color-black;
   }
 
   .page-form .menu__content-link--current:hover,
-  .page-form.menu__content-link--current:focus {
+  .page-form .menu__content-link--current:focus {
     color: $color-black;
   }
 }

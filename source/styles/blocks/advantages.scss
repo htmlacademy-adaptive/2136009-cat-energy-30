@@ -1,3 +1,5 @@
+
+
 .advantages {
   width: 100%;
   margin-bottom: 49px;
@@ -33,9 +35,9 @@
   align-items: center;
   margin: 0;
   padding: 0 5px 0 80px;
-  font-family: "Oswald", sans-serif;
+  font-family: "Lato", sans-serif;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 129%;
   color: $color-dark-grey;
 }
@@ -48,33 +50,36 @@
   height: 60px;
 }
 
-
 .advantages__icon-4::before {
   background-color: $color-basic-green;
-  background-image: url("../../images/icons/icon-clock.svg");
+  background-image: url("../../images/icons/clock.svg");
   background-repeat: no-repeat;
   background-position: center;
+  background-size: 29px;
 }
 
 .advantages__icon-3::before {
   background-color: $color-basic-green;
-  background-image: url("../../images/icons/stack.svg#icon-eat");
+  background-image: url("../../images/icons/stack.svg#eat");
   background-repeat: no-repeat;
   background-position: center;
+  background-size: 29px;
 }
 
 .advantages__icon-2::before {
   background-color: $color-basic-green;
-  background-image: url("../../images/icons/stack.svg#icon-water");
+  background-image: url("../../images/icons/stack.svg#water");
   background-repeat: no-repeat;
   background-position: center;
+  background-size: 29px;
 }
 
 .advantages__icon-1::before {
   background-color: $color-basic-green;
-  background-image: url("../../images/icons/stack.svg#icon-leaf");
+  background-image: url("../../images/icons/stack.svg#leaf");
   background-repeat: no-repeat;
   background-position: center;
+  background-size: 29px;
 }
 
 @media (min-width: $tablet-width) {
