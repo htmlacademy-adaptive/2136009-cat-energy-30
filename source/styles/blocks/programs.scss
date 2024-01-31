@@ -1,3 +1,4 @@
+
 .programs__list {
   margin: 0;
   padding: 0;
@@ -224,7 +225,7 @@
     height: 53px;
     left: 0;
 
-    background-image: url("../../images/icons/stack.svg#cat-slim");
+    background-image: url("../../images/icons/stack.svg#cat-slim.svg");
   }
 
   --pro::before {
@@ -245,7 +246,5 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 129%;
-
-  background-image: url("../../images/icons/stack.svg#icon-arrow");
 }
 
