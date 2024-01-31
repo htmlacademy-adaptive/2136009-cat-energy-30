@@ -9,7 +9,6 @@
   }
 
   @media (min-width: $desktop-width) {
-    grid-template-columns: 46% 46%;
     grid-column: 2/-1;
     grid-row: 1/-1;
     max-width: 100%;

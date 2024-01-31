@@ -17,17 +17,18 @@
 }
 
 .socials__link {
+  color: $color-brown;
   display: inline-block;
+}
+
+.socials__link:hover{
+  color: $color-basic-green;
 }
 
 @media (min-width: $tablet-width) {
   .socials__item {
     padding-left: 24px;
     padding-right: 0;
-  }
-
-  .socials__link:hover .link__svg {
-    stroke: $color-basic-green;
   }
 
   .socials__link:focus-within {

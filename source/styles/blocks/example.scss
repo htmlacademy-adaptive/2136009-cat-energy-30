@@ -31,8 +31,9 @@
 
 .example__title {
   font-family: "Oswald", sans-serif;
-  font-size: 36px;
-  line-height: 40px;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 60px;
   color: $color-black;
   margin: 0 0 40px;
 
@@ -49,6 +50,10 @@
 }
 
 .example__description {
+  font-family: Lato, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
   margin: 0;
   margin-bottom: 17px;
   word-wrap: break-word;
