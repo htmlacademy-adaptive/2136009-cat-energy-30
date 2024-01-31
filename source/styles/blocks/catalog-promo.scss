@@ -1,9 +1,11 @@
+
+
 .catalog-promo {
   width: 100%;
   margin: 0 0 35px;
   padding: 0;
   background-color: $color-basic-green;
-  background-image: url("../../images/catalog/catalog-background-m@1x.png");
+  background-image: url("../../images/catalog-background-m@1x.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -12,7 +14,7 @@
 
 @media (min-resolution: 2dppx) {
   .catalog-promo {
-    background-image: url("../../images/catalog/catalog-background-m@2x.png");
+    background-image: url("../../images/catalog-background-m@2x.png");
   }
 }
 

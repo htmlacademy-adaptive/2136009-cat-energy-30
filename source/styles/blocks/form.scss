@@ -1,3 +1,5 @@
+
+
 .form {
   width: 100%;
   margin: 0;
@@ -38,4 +40,49 @@
   line-height: 114%;
   color: $color-black;
   text-align: center;
+}
+
+@media (min-width: $tablet-width) {
+  .form {
+    padding: 0;
+    border: none;
+    margin-bottom: 72px;
+  }
+
+  .form__title {
+    font-size: 60px;
+    line-height: 100%;
+    color: $color-black;
+    padding: 0 39px;
+    margin-bottom: 54px;
+  }
+
+  .form__text {
+    font-size: 20px;
+    line-height: 150%;
+    padding: 0 40px;
+    margin-bottom: 67px;
+    max-width: 463px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .form {
+    width: 100%;
+    margin-bottom: 82px;
+  }
+
+  .form-container {
+    margin: 0 auto;
+    max-width: $desktop-width;
+  }
+
+  .form__title {
+    padding-left: 0;
+  }
+
+  .form__text {
+    padding-left: 0;
+    max-width: 430px;
+  }
 }
